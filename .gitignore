@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Distribution / Build
+dist/
+build/
+*.spec
+*.exe
+
+# Models (Too large for GitHub)
+model/
+picgo/model/
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+
+# Logs
+*.log
+
+# Personal / Local
+team_talk.txt
+team_talk.md
+picgo/team_talk_prompt.txt
+
+# Editor
+.vscode/
+.idea/
