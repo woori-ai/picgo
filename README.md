@@ -1,3 +1,30 @@
+# PicGo Local - AI Image Generator
+
+## Installation & Setup
+
+since the file size exceeds GitHub's limit, the Windows executable (`.exe`) is hosted externally.
+
+1.  **Download the App**:
+    -   Download `PicGo_Local.exe` from [LINK_TO_YOUR_HOSTED_FILE_HERE] (e.g., Google Drive, Dropbox).
+    -   Place the file in a folder of your choice (e.g., `C:\PicGo`).
+
+2.  **Download AI Models (Required)**:
+    -   The application **does not** come with pre-installed models to keep the file size manageable.
+    -   Download Stable Diffusion checkpoints (`.safetensors` or `.ckpt` files) from sites like [Civitai](https://civitai.com) or [HuggingFace](https://huggingface.co).
+    -   **Recommended Models**:
+        -   [DreamShaper (SD 1.5)](https://civitai.com/models/4384/dreamshaper)
+        -   [Juggernaut XL (SDXL)](https://civitai.com/models/133005/juggernaut-xl)
+
+3.  **Run the App**:
+    -   Double-click `PicGo_Local.exe` to start.
+    -   The app will automatically create a `model` folder in the same directory.
+    -   **Move your downloaded model files into this `model` folder.**
+    -   In the app, click "Load Model..." and select your model file to begin.
+
+---
+
+## User Guide
+
 1. AI 모델 설정 (Model Settings)
 이미지를 생성하기 위한 '두뇌' 역할을 하는 모델 파일을 불러오는 단계입니다.
 모델 로드: Load Model... 버튼을 클릭하여 소지하고 있는 모델 파일(.safetensors 등)을 선택합니다.
