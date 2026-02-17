@@ -5,7 +5,7 @@
 since the file size exceeds GitHub's limit, the Windows executable (`.exe`) is hosted externally.
 
 1.  **Download the App**:
-    -   Download `PicGo_Local.exe` from [LINK_TO_YOUR_HOSTED_FILE_HERE] (e.g., Google Drive, Dropbox).
+    -   Download `PicGo_Local.exe` from [Google Drive Folder](https://drive.google.com/drive/folders/1LK8Lrv-oBJZKknphJtio80ikfgzP389S).
     -   Place the file in a folder of your choice (e.g., `C:\PicGo`).
 
 2.  **Download AI Models (Required)**:
