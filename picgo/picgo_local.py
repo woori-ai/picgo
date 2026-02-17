@@ -370,6 +370,20 @@ class ImageGeneratorApp:
                 messagebox.showinfo("Saved", f"Image saved to {file_path}")
 
 if __name__ == "__main__":
+    # Ensure model folder exists at startup
+    if getattr(sys, 'frozen', False):
+        base_path = os.path.dirname(sys.executable)
+    else:
+        base_path = os.path.dirname(os.path.abspath(__file__))
+    
+    model_dir = os.path.join(base_path, "model")
+    if not os.path.exists(model_dir):
+        try:
+            os.makedirs(model_dir, exist_ok=True)
+            print(f"Created model directory: {model_dir}")
+        except Exception as e:
+            print(f"Failed to create model directory: {e}")
+
     root = tk.Tk()
     app = ImageGeneratorApp(root)
     root.mainloop()
